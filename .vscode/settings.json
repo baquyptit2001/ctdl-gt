@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "iostream": "cpp",
+        "unordered_map": "cpp",
+        "bitset": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp",
+        "iosfwd": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp"
+    }
+}
