@@ -19,6 +19,7 @@
         "iosfwd": "cpp",
         "chrono": "cpp",
         "random": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "numeric": "cpp"
     }
 }
