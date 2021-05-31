@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ctdl_gt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ctdl_gt">
+				<Option output="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/ctdl_gt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctdl_gt"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ctdl_gt/fast">
+				<Option output="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/ctdl_gt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctdl_gt/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/0_va_9.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/0_va_9_sinh.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/P_n_k.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/atm.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/bac_thang.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/bdn_1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/bdn_2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ben_phai_dau_tien.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/bfs.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/bien_doi_s-t.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/bieu_dien_do_thi_co_huong.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/bo_sung_phan_tu.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/bubble_sort.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/canh_sang_ke.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/cap_so_tong_k.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/chia_2_mang_con_tong_long_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/con_ech.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/danh_sach_ke_ma_tran_ke.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/dao_tu.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/day_con_tong_k.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/day_con_tong_lon_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/day_so_1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/day_tang_dai_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/dem_day.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/dem_so_0.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/dequeue.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/dfs_vo_huong.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/di_chuyen_trong_me_cung.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/doi_cho_chu_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/doi_cho_truc_tiep.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/doi_tien.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/draft.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/fibo_thu_n.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/floor.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/gap_doi_day_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/giai_ma.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/giai_ma_xau.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/giao_3_day_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/giao_3_day_so_van_toan.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/gray1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/gray2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/gray3.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/hahaha.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/hang_doi_2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/he_co_so_k.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/hoan_vi_tiep_theo.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/hoan_vi_xau_ky_tu.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/hop_giao_1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ke_sang_canh.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ky_tu_1_pro.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/loc_phat_1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/loc_phat_2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/loc_phat_3.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/loc_trung.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/luy_thua.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/luy_thua_dao.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/bai_toan_liet_ke.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/hoan_vi_ke_tiep.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/liet_ke_hoan_vi.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/liet_ke_to_hop.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/nhi_phan_n_bit1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/tap_con_ke_tiep.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/tempCodeRunnerFile.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/test.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi1/xau_ab_dai_n.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi2/de_quy.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi2/de_quy_dem.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi2/de_quy_quay_lui.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi2/de_quy_thuan_nghich.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi3(contest)/ab_dai_n.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi3(contest)/hoan_vi_nguoc.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi3(contest)/phan_tich_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi3(contest)/tap_quan_su.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi3(contest)/xau_ab_dai_n.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi4/sap_dat_xau_ky_tu_1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi5(contest)/dem_so_0.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi5(contest)/gap_doi_day_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi5(contest)/nham_chu_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi5(contest)/phan_so_don_vi.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi5(contest)/sap_xep_cong_viec.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi5(contest)/tempCodeRunnerFile.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi6(contest)/day_tang_dai_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi6(contest)/sap_xep_theo_so_lan_xuat_hien.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi6(contest)/so_lan_xuat_hien.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi6(contest)/so_nho_nhat_va_thu_2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/buoi6(contest)/to_hop.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/contest/hang_doi_1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/contest/ngan_xep_1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/contest/ngoac_dung.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ly_thuyet/contest/tinh_hau_to.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ma_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ma_tran_ke_sang_danh_sach_ke.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/merge_sort.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/mua_luong_thuc.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ngan_xep_2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ngoac_doi_chieu.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/ngoac_dung_dai_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/nham_chu_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/nhi_phan_1-n.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/nhi_phan_ke_tiep.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/nhi_phan_truoc.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/nho_nhat_va_thu_hai.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/noi_day.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/phan_tu_khac_nhau.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/phan_tu_lon_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/phan_tu_thu_k.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_dat_ky_tu_2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_012.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_chen.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_chon.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_chu_so.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_cong_viec.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_day_con_lien_tuc.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_quan_hau1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_tham_lam.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/sap_xep_xen_ke.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/so_buoc_it_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/so_lan_xuat_hien.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/so_may_man.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tap_con_bang_nhau.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tempCodeRunnerFile.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thu_tu_cap_ngoac.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuat_toan_sinh.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/di_chuyen_ma_tran.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/gia_tri_nho_nhat_xau.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/gray1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/mua_luong_thuc.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/nhi_phan_n_bit1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/phan_tu_khac_nhau.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/sap_dat_xau_ky_tu_1.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/sap_xep_cv_2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/sap_xep_quan_hau_2.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/tap_con_bang_nhau.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/tu_dien.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/thuchanh1/xau_ab_dac_biet.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tich_lon_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tich_lon_nhat_nho_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tich_nhi_phan.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tien_to.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tien_to_hau_to.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tim_day_xep_vong.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tim_kem.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tim_kiem_nhi_phan.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tim_max.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/to_hop.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tong_cap_so_nguyen_to.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tong_gan_0.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tong_nho_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/tron_hai_day.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/trr/dfs.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/trr/prim.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/trr/tempCodeRunnerFile.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/xau_ab_dac_biet.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/xau_con_chung_dai_nhat.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/xau_fibo.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/xep_theo_gttd.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/xoa_dslk.cpp">
+			<Option target="ctdl_gt"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/Desktop/exercise/ctdl&amp;gt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
