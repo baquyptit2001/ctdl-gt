@@ -2,6 +2,7 @@
 
 int A[1005][1005], n, m, u;
 bool used[1005];
+
 using namespace std;
 
 void init() {
@@ -15,6 +16,7 @@ void init() {
         A[y][x] = 1;
     }
 }
+
 void DFS() {
     stack < int > St;
     St.push(u);
@@ -34,6 +36,7 @@ void DFS() {
         }
     }
 }
+
 int main() {
     int t;
     cin >> t;
