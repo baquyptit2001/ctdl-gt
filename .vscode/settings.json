@@ -20,6 +20,15 @@
         "chrono": "cpp",
         "random": "cpp",
         "limits": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "*.tcc": "cpp",
+        "memory": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "system_error": "cpp"
     }
 }

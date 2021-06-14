@@ -20,15 +20,15 @@ int main(){
         {
             if(a1[i] == a2[j] and a3[k] == a1[i])
             {
-            cout << a1[i] <<" ";
-            i++; j++; k++;con=1;
+                cout << a1[i] <<" ";
+                i++; j++; k++;con=1;
             }
             else if(a1[i] < a2[j])
-            i++;
+                i++;
             else if(a2[j] < a3[k])
-            j++;
+                j++;
             else
-            k++;
+                k++;
             
         }
         if(!con)
