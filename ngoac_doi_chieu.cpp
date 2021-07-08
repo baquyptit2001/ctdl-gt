@@ -2,23 +2,27 @@
 
 using namespace std;
 
-int main(){
-    int t;
-    cin>>t;
-    while(t--){
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int test = 1;
+    cin >> test;
+    while (test--) {
         string s;
-        cin>>s;
-        int res = 0;
-        stack <char> stk;
-        for(int i=0;i<s.length();i++){
-            if(s[i]=='(')
-                stk.push(s[i]);
-            if(s[i] == ')' and not stk.empty()){
-                stk.pop();
-                res++;
+        cin >> s;
+        int d = 0;
+        stack < char > stk;
+        for (int i = 0; i <= s.length() - 1; i++) {
+            if (s[i] == '(')
+                stk.push('(');
+            else {
+                if (!stk.empty())
+                    stk.pop();
+                else
+                    d++;
             }
         }
-        cout<<(s.length()-res*2)/2<<endl;
+        cout << d / 2 + stk.size() / 2 + d % 2 + stk.size() % 2 << endl;
     }
-    return 0;
 }
