@@ -14,4 +14,4 @@ for u in range(t):
     w, n = int(w), int(n)
     a = list(map(int, input().split()))
     b = list(map(int, input().split()))
-    print(knapSack(w, a, b, n))
+    print(knapSack(n, a, b, w))

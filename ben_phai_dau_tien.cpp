@@ -18,13 +18,13 @@ int main(){
                 stk.push(a[i]);
                 continue;
             }
-            while(!stk.empty() and stk.top() < a[i]){
+            while(not stk.empty() and stk.top() < a[i]){
                 cout<<a[i]<<' ';
                 stk.pop();
             }
             stk.push(a[i]);
         }
-        while(!stk.empty()){
+        while(not stk.empty()){
             cout<< -1 <<' ';
             stk.pop();
         }
