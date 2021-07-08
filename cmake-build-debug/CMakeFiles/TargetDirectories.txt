@@ -1,3 +1,0 @@
-C:/Users/ADMIN/Desktop/exercise/ctdl&gt/cmake-build-debug/CMakeFiles/ctdl_gt.dir
-C:/Users/ADMIN/Desktop/exercise/ctdl&gt/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ADMIN/Desktop/exercise/ctdl&gt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
