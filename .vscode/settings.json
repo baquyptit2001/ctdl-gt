@@ -30,5 +30,6 @@
         "type_traits": "cpp",
         "utility": "cpp",
         "system_error": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
 }

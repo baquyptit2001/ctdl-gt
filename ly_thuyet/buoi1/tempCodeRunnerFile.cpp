@@ -1,3 +1,4 @@
-for(int j=0;j<k;j++)
-        //     cout<<a[j];
-        // cout<<" ";
+f(not check(store)){
+        //     cout<<index<<" BIGGEST"<<endl;
+        //     continue;
+        // }

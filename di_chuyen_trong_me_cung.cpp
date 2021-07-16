@@ -1,53 +1,53 @@
 #include<bits/stdc++.h>
+
 using namespace std;
 
-int a[11][11];
-int n;
-char x[100];
-bool check;
+int a[15][15], n;
+bool check = true;
+char result[105];
 
-void nhap(){
-	for(int i=0; i < n; i++)
-		for(int j=0 ;j < n; j++)
-			cin >> a[i][j];
+void out(int index) {
+	for (int i = 0; i < index; i++) {
+		cout << result[i];
+	}
+	cout << ' ';
 }
 
-void in(int k){
-	for(int i = 0; i < k; i++)
-		cout << x[i];
-	cout << " ";
-	check = true;
-}
-
-void Try(int i, int j, int k){
-	if (i == n-1 && j == n-1){
-		in(k);
+void Try(int i, int j, int index) {
+	if (i == n - 1 and j == n - 1) {
+		out(index);
+		check = false;
 		return;
 	}
-	if (i < n-1 && a[i+1][j] == 1){
-		x[k] = 'D';
-		Try(i+1, j, k+1);
+	if (i < n - 1 and a[i + 1][j] == 1) {
+		result[index] = 'D';
+		Try(i + 1, j, index + 1);
 	}
-	if (j < n-1 && a[i][j+1] == 1){
-		x[k] = 'R';
-		Try(i, j+1, k+1);
+	if (j < n - 1 and a[i][j + 1] == 1) {
+		result[index] = 'R';
+		Try(i, j + 1, index + 1);
 	}
 }
 
-int main(){
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-	int t; cin >> t;
-	while(t--){
+int main() {
+	int t;
+	cin >> t;
+	while (t--) {
+		check=true;
 		cin >> n;
-		nhap();
-		check = false;
-		if (a[0][0] != 1)	cout << "-1";
-		else{
-			Try(0, 0, 0);
-			if(!check)	cout << "-1"; 
+		for (int i = 0; i < n; i++)
+			for (int j = 0; j < n; j++)
+				cin >> a[i][j];
+		if (a[0][0] == 0){
+			cout << "-1" << endl;
+			continue;
+		}
+		Try(0, 0, 0);
+		if (check) {
+			cout << "-1" << endl;
+			continue;
 		}
 		cout << endl;
 	}
+	return 0;
 }

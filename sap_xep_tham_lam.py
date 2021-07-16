@@ -1,20 +1,17 @@
-def ifPossible(arr, n):
+def ifPossible(a, n, b):
+	l, r = 0, n-1
+	while l<r:
+		if (not((a[l] == b[l] and a[r] == b[r]) or (a[l] == b[r] and a[r] == b[l]))):
+			return "No"
+		l+=1
+		r-=1
+	return "Yes"
 
-	cp = [0] * n
-	cp = arr
-	cp.sort()
-
-	for i in range(0 , n) :
-		if (not(arr[i] == cp[i]) and not (arr[n - 1 - i] == cp[i])):
-			return "NO"
-
-	return "YES"
-
-# Driver code
 t = int(input())
 
 for u in range(t):
-
     n = int(input())
-    arr = list(map(int,input().split()))
-    print(ifPossible(arr,n))
+    a = list(map(int,input().split()))
+    b=a
+    b.sort()
+    print(ifPossible(a,n,b))

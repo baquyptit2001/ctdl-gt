@@ -3,14 +3,19 @@
 using namespace std;
 
 int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
     int t;
     cin>>t;
+    int kq[11]={0,1,2,3,5,7,11,15,22,30,42};
     while(t--){
         int n;
         cin>>n;
         int a[n+1],index;
         a[0]=n-1;
         a[1]=1;
+        cout<<kq[n]<<endl;
         if(n==1){
             cout<<"(1)"<<endl;
             continue;
