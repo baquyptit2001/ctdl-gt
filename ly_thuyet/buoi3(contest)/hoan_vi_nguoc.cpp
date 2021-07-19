@@ -39,6 +39,7 @@ int main(){
             }
             dem++;
         }
+        cout<<dem<<endl;
         for(int i=dem-1;i>=0;i--){
             for(int j=0;j<n;j++)
                 cout<<res[i][j];

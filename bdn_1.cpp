@@ -11,19 +11,19 @@ int main(){
     while(t--){
         long long n;
         cin>>n;
-        queue<long long> q;
-        q.push(1);
-        int res = 0;
-        while(not q.empty()){
+        queue <long long> que;
+        que.push(1);
+        int res=0;
+        while(1){
             res++;
-            long long t = q.front();
-            if(t>n){
+            long long front=que.front();
+            if(front>n){
                 cout<<res-1<<endl;
                 break;
             }
-            q.pop();
-            q.push(t*10);
-            q.push(t*10+1);
+            que.pop();
+            que.push(front*10);
+            que.push(front*10+1);
         }
     }
     return 0;

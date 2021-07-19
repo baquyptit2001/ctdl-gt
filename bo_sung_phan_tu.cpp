@@ -16,7 +16,10 @@ int main(){
             cin>>a[i];
         int res=0;
         sort(a,a+n);
-        cout<<a[n-1]-a[0]+1-n<<endl;
+        for(int i=0;i<n-1;i++)
+            if(a[i+1]!=a[i])
+                res+=(a[i+1]-a[i]-1);
+        cout<<res<<endl;
     }
     return 0;
 }
