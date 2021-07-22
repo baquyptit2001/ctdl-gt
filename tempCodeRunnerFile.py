@@ -1,10 +1,12 @@
-n = int(input())
+import time
+num = [1]
+c2 = c3 = c5 = 0
 
-store = []
-for i in range(n):
-    a = list(map(int, input().split()))
-    store.append(a)
-for i in range(len(store)-1):
-    for j in range(len(store[i])):
-        if store[i][j] > i+1:
-            print(i+1,store[i][j])
+while True:
+  next = min(2*num[c2], 3*num[c3], 5*num[c5])
+  num.append(next)
+  print (num)
+  if next == 2*num[c2]: c2 += 1
+  if next == 3*num[c3]: c3 += 1
+  if next == 5*num[c5]: c5 += 1
+  time.sleep(0.5)

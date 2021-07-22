@@ -38,26 +38,22 @@ int main() {
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	cout.tie(0);
-	int t;
-	cin >> t;
-	while (t--) {
-		docGhi();
-		Try(1);
-		if (res.size() == 0)
-			cout << -1 << endl;
-		else {
-			sort(res.begin(), res.end());
-			for (int i = 0; i < res.size(); i++) {
-				cout << '[';
-				for (int j = 0; j < res[i].size(); j++) {
-					cout << res[i][j];
-					if (j != res[i].size() - 1)
-						cout << ' ';
-				}
-				cout << "] ";
-			}
-			cout << endl;
-		}
-	}
+    docGhi();
+    Try(1);
+    if (res.size() == 0)
+        cout << -1 << endl;
+    else {
+        sort(res.begin(), res.end());
+        for (int i = res.size()-1; i >= 0; i--) {
+            // cout << '[';
+            for (int j = 0; j < res[i].size(); j++) {
+                cout << res[i][j];
+                if (j != res[i].size() - 1)
+                    cout << ' ';
+            }
+            cout << endl;
+        }
+    }
+    cout<<res.size();
 	return 0;
 }
