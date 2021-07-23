@@ -28,12 +28,12 @@ int main(){
             res.push_back(next);
             if(next==res[p2]*2)
                 p2++;
-            if(next==res[p3]*2)
+            if(next==res[p3]*3)
                 p3++;
-            if(next==res[p5]*2)
+            if(next==res[p5]*5)
                 p5++;
         }
-        cout<<res[res.size()-1]<<endl;
+        cout<<res[n-1]<<endl;
     }
     return 0;
 }
